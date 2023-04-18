@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validating-the-punk-api;validating-the-punk-api",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validating the Punk API",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I call the punk api with beer id 192",
+            "match": {
+              "location": "steps/api_punk_validation.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I expect a 200 status response",
+            "match": {
+              "location": "steps/api_punk_validation.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The malt is \"Extra Pale\"",
+            "match": {
+              "location": "steps/api_punk_validation.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The malt value is 5.3 and the unit is \"kilograms\"",
+            "match": {
+              "location": "steps/api_punk_validation.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validating-the-punk-api",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validating the Punk API",
+    "tags": [],
+    "uri": "features/api.feature"
+  }
+]

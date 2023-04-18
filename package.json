@@ -1,0 +1,19 @@
+{
+  "name": "cucumber_api",
+  "version": "1.0.0",
+  "description": "cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/ -r steps/ --format json:report/cucumber_report.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "axios": "^1.3.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^5.0.0"
+  }
+}
